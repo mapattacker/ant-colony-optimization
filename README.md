@@ -1,10 +1,8 @@
-# Heuristic Algorithms
+# Ant Colony Optimization
 
-Implementations of some optimization algorithms like Ant Colony Optimization.
+This script is used to solve the travelling salesman problem. 
 
-## Ant Colony Optimization
-
-This algorithm is used to solve the travelling salesman problem. To visualize the best path & pheromone trail per iteration we can select `display = True`. However, the script will run much slower.
+To visualize the best path & pheromone trail per iteration we can select `display = True`. However, the script will run much slower.
 
 ```python
 from aco import aco
@@ -21,5 +19,5 @@ a = aco(x, y, maxiter, ant_no, rho=0.25, alpha=1, beta=1, display=display)
 ```
 
 <p>
-    <img src="https://github.com/mapattacker/heuristic-algorithms/blob/master/img/aco.png?raw=true" width=60% />
+    <img src="https://github.com/mapattacker/heuristic-algorithms/blob/master/img/aco.png?raw=true" width=80% />
 </p>
