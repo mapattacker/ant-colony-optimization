@@ -8,7 +8,7 @@ To visualize the best path & pheromone trail per iteration we can select `displa
 from aco import aco
 from random import sample
 
-# create 20 nodes
+# create 20 random nodes
 x = sample(range(20), 20)
 y = sample(range(20), 20)
 

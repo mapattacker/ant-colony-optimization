@@ -142,7 +142,6 @@ def roulette_wheel(P):
     return idx
 
 
-
 def create_colony(graph, ant_no, tau, eta, alpha, beta):
     """get all paths based on pheromone & path cost"""
     num_nodes = len(graph)
@@ -200,6 +199,7 @@ def update_pheromone(tau, colony_tours, fitness_colony):
 
 def aco(x, y, maxiter, ant_no, rho=0.25, alpha=1, beta=1, display=True):
     """Ant Colony Optimization, a meta-heuristics algo for solving combinatorial problems
+    
     Aim: find the shortest path that will tranverse pass all nodes (travelling salesman)
     Complexity: len(nodes)!, e.g. 5!=120, 10!=3628800 combinations
     Strategy: Stigmergy; ant paths built using pheromones trails
