@@ -20,6 +20,6 @@ display = True
 a = aco(x, y, maxiter, ant_no, rho=0.25, alpha=1, beta=1, display=display)
 ```
 
-<p align="center">
+<p>
     <img src="https://github.com/mapattacker/heuristic-algorithms/blob/master/img/aco.png?raw=true" width=60% />
 </p>
