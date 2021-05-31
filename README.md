@@ -4,7 +4,7 @@ Implementations of some optimization algorithms like Ant Colony Optimization.
 
 ## Ant Colony Optimization
 
-This algorithm is used to solve the travelling salesman problem. To visualize the best path & pheromone trail per iteration we can select `display = True`
+This algorithm is used to solve the travelling salesman problem. To visualize the best path & pheromone trail per iteration we can select `display = True`. However, the script will run much slower.
 
 ```python
 from aco import aco
