@@ -1,10 +1,11 @@
-from random import randint, random, sample
-from math import inf, sqrt
+import warnings
 from itertools import accumulate
+from math import inf, sqrt
+from random import randint, random, sample
 
 import matplotlib.pyplot as plt
 import numpy as np
-import warnings
+
 warnings.filterwarnings("ignore", category=RuntimeWarning) 
 
 
